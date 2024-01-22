@@ -1,0 +1,79 @@
+VERSIONAMENTO
+-------------
+- O que é versionamento de código:
+    - Controle de versão para acompanhar e registrar todas as alterações feitas nos arquivos de código-fonte de um projeto. 
+    Afinal, cada modificação feita, seja ela uma adição de código, correção de bugs ou qualquer outra mudança, é armazenada em um sistema de controle de versão, como o Git. 
+    Todavia, essa abordagem possibilita o rastreamento detalhado das modificações, permitindo que os desenvolvedores visualizem e acessem versões anteriores do código facilmente.
+
+    - Link para consultar: https://blog.casadodesenvolvedor.com.br/versionamento-de-codigo/#:~:text=O%20versionamento%20de%20c%C3%B3digo%20permite%20que%20os%20desenvolvedores%20criem%20ramifica%C3%A7%C3%B5es,ao%20projeto%20principal%20quando%20prontas.
+
+
+GIT e GITHUB
+------------
+- São ferramentas que auxiliam o versionamento e controle de código:
+    - Instalação
+
+    - Configurações globais: nome de usuário, e-mail, nome padrão da branch principal e tipos de autentição (opcional)
+
+
+- Primeiros passos:
+    - Criar e clonar um repositório através de dois métodos:
+        - Transformar um diretório local que ainda não está sob versionamento via terminal
+            - mkdir nome-da-pasta para criar o repositório
+
+            - Acessar a pasta usando cd nome-da-pasta
+
+            - Iniciar o versionamento com git init
+
+            - git remote add origin https://github.com/nome-repositorio
+
+        - Criar através do GitHub e clonar ou baixar para sua máquina local
+            - Criar repositório
+
+            - Definir configurações: privado ou público, arquivo README e descrição
+
+            - Clonar usando git clone https://github.com/nome-repositorio
+
+            - Realizar download do repositório.zip
+
+        - Outros comandos:
+            - .git significa que o projeto já é um repositório
+
+            - cat config verifica as configurações do arquivo
+
+            - Geralmente a pasta .git fica oculta na máquina
+
+            - Para adicionar salvar arquivos modificados utilize o comando git add .
+
+            - Para consultar o status de um arquivo ou branch use git status
+
+            - Para enviar as alterações utilize git commit -m "Descrição"
+
+            - Por fim, envie para o repositório remoto usando git push
+
+            - Para alterar a mensagem do último commit use git commit --amend -m "Nova descrição"
+
+            - git log verifica os logs 
+
+            - git reset descarta o último commit e permite refazer uma nova operação
+
+            - git pull atualiza a branch atual
+
+
+- Trabalhando com branchs:
+    - Uma branch é uma ramificação da área principal, permitindo trabalhar com outras alterações de forma paralela
+
+    - git branch verifica a branch atual que está sendo utilizada
+
+    - git checkout -b nome-branch cria e troca para esta nova branch
+
+    - git checkout nome-branch apenas troca para a branch selecionada
+
+    - git branch -d nome-branch deleta a branch selecionada
+
+    - git merge nome-branch mescla a branch atual com a que for escolhida
+        - Ao mergear branchs, é possível se deparar com conflitos, por isso, verifique os logs e escolha a melhor alteração
+
+    - O comando git fetch é a junção got git pull + git merge, essa forma é possível baixar as alterações de uma branch e mesclar as suas
+
+    - Link da documentação oficial para consultar: https://git-scm.com/docs/git/pt_BR
