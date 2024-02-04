@@ -81,7 +81,7 @@ GIT e GITHUB
 
 HTML-5
 ------
-- Siginifica HyperText Markup Lamguage ou, em português, Linguagem de Marcação de Texto:
+- Significa HyperText Markup Lamguage ou, em português, Linguagem de Marcação de Texto:
     - Com ele definimos o significado e a estrutura do conteúdo da web
 
     - A maioria de suas tags necessitam de abertura e fechamento, mas algumas não recebem esse padrão
@@ -127,3 +127,26 @@ HTML-5
         - ul: lista não ordenada
 
         - li: item de cada tipo de lista
+
+
+CSS-3
+-----
+- Significa Cascading Style Sheets ou, em português, Folhas de Estilo em Cascata:
+    - É possível estilizar através de seletores (tags HTML), classes ou ids
+
+    - Um arquivo .css precisa ser referenciado no arquivo .html utilizado:
+        - Alocado dentro da tag <head> e referenciado pela tag <link rel="" href="">
+    
+    - A classe é definida por .nome-da-classe
+
+    - O id é definido por #nome-do-id
+
+    - A tag HTML recebe seu próprio nome
+
+
+- Box model é um conceito de espaçamento para conteúdos:
+    - margin: espaçamento entre elementos
+
+    - border: pode ter sua espessura e cor alteradas
+
+    - padding: espaçamento entre a border e o conteúdo
