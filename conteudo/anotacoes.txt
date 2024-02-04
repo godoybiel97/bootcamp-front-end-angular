@@ -77,3 +77,53 @@ GIT e GITHUB
     - O comando git fetch é a junção got git pull + git merge, essa forma é possível baixar as alterações de uma branch e mesclar as suas
 
     - Link da documentação oficial para consultar: https://git-scm.com/docs/git/pt_BR
+
+
+HTML-5
+------
+- Siginifica HyperText Markup Lamguage ou, em português, Linguagem de Marcação de Texto:
+    - Com ele definimos o significado e a estrutura do conteúdo da web
+
+    - A maioria de suas tags necessitam de abertura e fechamento, mas algumas não recebem esse padrão
+
+    - O arquivo .html recebe uma configuração principal:
+        - <!DOCTYPE html>
+        <html lang="pt-BR"> //Define o idioma do nosso documento
+        <head> //Cabeçalho com informações que serão lidas pelo navegador
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Algum Título</title>
+        </head>
+        <body> //Onde todo conteúdo será alocado
+        </body>
+        </html>
+
+
+- A <div> já foi o principal elemento de uma página, mas atualmente existem outras divisões:
+    - section: representa uma seção independente
+
+    - header: representa o cabeçalho de uma página
+
+    - article: representa um conteúdo relevante
+
+    - aside: rerpesenta um conteúdo que está relacionado ao principal e geralmente fica alocada à esquerda
+
+    - footer: representa o rodapé com informações relevantes
+
+    - h1 até h6: representa o tamanho de títulos
+
+    - p: rerpesenta parágrafos
+
+    - a href: referencia links
+        - target _blank: significa que o link será aberto em outra aba
+
+        - mailto: redireciona para um serviço de e-mail
+
+    - img: armazena imagens e sua descrição
+
+    - tags relacionadas à listas:
+        - ol: lista ordenada
+
+        - ul: lista não ordenada
+
+        - li: item de cada tipo de lista
